@@ -2,10 +2,17 @@
     display: flex;
     justify-content: center;
 }
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .jumbo-image {
     position: relative;
 }
-#maptest {
+#header-nav {
+    margin: 0;
+}
+#mapwrap {
     border: 1px solid silver;
     border-radius: 4px;
     position: absolute;
@@ -15,15 +22,6 @@
     height: 220px;
     width: 300px;
     margin: 0 -15px -15px 0px;
-}
-#mapwrap {
-    border: 1px solid silver;
-    border-radius: 4px;
-    position: relative;
-    overflow: hidden;
-    height: 220px;
-    width: 450px;
-    margin: 0 15px 15px 15px;
 }
 .overlay {
     background: rgba(255,255,255,.6);
@@ -41,7 +39,17 @@
     width: 200px;
     height: 100px;
 }
-.media {
-    border-top: 1px solid silver;
+.staff {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.underline {
+    border-bottom: 1px dotted silver;
     margin-bottom: 15px;
+}
+@media (max-width: 991px) {
+    .mobile {
+        border-bottom: 1px dotted silver;
+        margin-bottom: 15px;
+    }
 }
