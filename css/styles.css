@@ -1,12 +1,29 @@
+.center-position {
+    display: flex;
+    justify-content: center;
+}
+.jumbo-image {
+    position: relative;
+}
+#maptest {
+    border: 1px solid silver;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    height: 220px;
+    width: 300px;
+    margin: 0 -15px -15px 0px;
+}
 #mapwrap {
     border: 1px solid silver;
     border-radius: 4px;
     position: relative;
-    float: left;
     overflow: hidden;
     height: 220px;
     width: 450px;
-    margin: 0 15px 0 15px;
+    margin: 0 15px 15px 15px;
 }
 .overlay {
     background: rgba(255,255,255,.6);
@@ -17,14 +34,6 @@
 }
 .address {
     font-weight: 600;
-    padding-left: 25px;
-}
-.rightbuttons {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    font-size: 16px;
 }
 #logo-img {
     background: url('../files/jumbotron.png') no-repeat center;
@@ -32,22 +41,7 @@
     width: 200px;
     height: 100px;
 }
-h1.header-text {
-	position: relative;
-	top: 250px;
-	left: 0;
-	color: white;
-}
-@media (max-width: 767px) {
-    #right {
-        position: relative;
-        float: left;
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) {
-    #right {
-        width: auto;
-    }
+.media {
+    border-top: 1px solid silver;
+    margin-bottom: 15px;
 }
