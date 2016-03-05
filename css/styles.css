@@ -39,6 +39,9 @@
     width: 200px;
     height: 100px;
 }
+h4 {
+    font-size: 170%;
+}
 .staff {
     margin-bottom: 20px;
     margin-left: 20px;
