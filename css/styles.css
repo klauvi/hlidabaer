@@ -32,9 +32,6 @@
     width: 200px;
     height: 100px;
 }
-.media-object {
-    width: 64px;
-}
 h1.header-text {
 	position: relative;
 	top: 250px;
@@ -42,19 +39,15 @@ h1.header-text {
 	color: white;
 }
 @media (max-width: 767px) {
-    .right {
+    #right {
         position: relative;
         float: left;
         width: 100%;
-        height: 220px;
-        border: 1px solid silver;
     }
 }
 
 @media (min-width: 768px) {
-    .right {
+    #right {
         width: auto;
-        height: 220px;
-        border: 1px solid silver;
     }
 }
