@@ -32,6 +32,9 @@
     width: 200px;
     height: 100px;
 }
+.media-object {
+    width: 64px;
+}
 h1.header-text {
 	position: relative;
 	top: 250px;
